@@ -23,14 +23,14 @@ public class Wenku8API {
      * Basic definitions
      */
     public static String NoticeString = "";
-    public static final String REGISTER_URL = "http://www.wenku8.com/register.php";
-    public static final String BASE_URL = "http://app.wenku8.com/android.php";
+    public static final String REGISTER_URL = "https://www.wenku8.com/register.php";
+    public static final String BASE_URL = "https://app.wenku8.com/android.php";
     public static final String RELAY_URL = "https://wenku8-relay.mewx.org/";
     private static final String NovelFinishedSC = "已完成", NovelFinishedTC = "已完成",
             NovelNotFinishedSC = "连载中", NovelNotFinishedTC = "連載中";
 
     public static String getCoverURL(int aid) {
-        return "http://img.wenku8.com/image/" + (aid / 1000) + "/" + aid + "/" + aid + "s.jpg";
+        return "https://img.wenku8.com/image/" + (aid / 1000) + "/" + aid + "/" + aid + "s.jpg";
     }
 
     // this only prevents good boys from doing bad things, and it's what we all know :-)
